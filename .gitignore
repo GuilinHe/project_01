@@ -1,0 +1,12 @@
+# 忽略所有的以 .txt文件
+*.txt
+
+# 不要忽略 test 下面的 txt 文件
+!test/*.txt
+
+#忽略根目录下文件，不会忽略 a/doc
+/doc
+
+doc/
+
+/css/**/*.pdf
